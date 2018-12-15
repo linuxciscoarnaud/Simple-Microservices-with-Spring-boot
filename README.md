@@ -1,6 +1,6 @@
 # Simple-Microservices-with-Spring-boot
 
-Two basic microservices developed using spring boot and that use RestTemplate to talk to each other
+Two basic micro-services developed using spring boot and that use RestTemplate to talk to each other
 
 This source code is an implementation of two basic micro-services: a produser (product-service) and a consumer (customer-service)
 
