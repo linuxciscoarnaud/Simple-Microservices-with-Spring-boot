@@ -13,19 +13,20 @@ import java.math.BigDecimal;
 public class DataProduct {
 
 	private String productId;
-	private String productName;
+	private String name;
 	private String description;
 	private BigDecimal unitPrice;
+	private Long unitsInStock;
 	private DataCategory category;
 	
 	public DataProduct() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public DataProduct(String productId, String productName, String description, BigDecimal unitPrice, DataCategory category) {
+	public DataProduct(String productId, String name, String description, BigDecimal unitPrice, DataCategory category) {
 		super();
 		this.productId = productId;
-		this.productName = productName;
+		this.name = name;
 		this.description = description;
 		this.unitPrice = unitPrice;
 		this.category = category;
@@ -39,12 +40,12 @@ public class DataProduct {
 		this.productId = productId;
 	}
 
-	public String getProductName() {
-		return productName;
+    public String getName() {
+		return name;
 	}
 
-	public void setProductName(String productName) {
-		this.productName = productName;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getDescription() {
@@ -69,5 +70,13 @@ public class DataProduct {
 
 	public void setCategory(DataCategory category) {
 		this.category = category;
+	}
+
+	public Long getUnitsInStock() {
+		return unitsInStock;
+	}
+
+	public void setUnitsInStock(Long unitsInStock) {
+		this.unitsInStock = unitsInStock;
 	}
 }

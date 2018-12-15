@@ -30,4 +30,10 @@ public class CustomerServiceRepositoryImpl implements CustomerServiceRepository 
 		Customer customer = entityManager.find(Customer.class, customerId);
 		return customer ;
 	}
+
+	@Override
+	public void addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		entityManager.persist(customer);
+	}
 }

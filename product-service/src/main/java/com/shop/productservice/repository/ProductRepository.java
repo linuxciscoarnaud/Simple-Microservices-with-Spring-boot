@@ -18,4 +18,9 @@ public interface ProductRepository {
 	Product getProductByProductId(String productId);
 	List<Product> getAllProducts();
 	List<Category> getAllCategories();
+	Category getCategory(String categoryId);
+	void addProduct(Product product);
+	void addCategory(Category category);
+	void updateProduct(String productId, Product product);
+	void updateCategory(String categoryId, Category category);
 }

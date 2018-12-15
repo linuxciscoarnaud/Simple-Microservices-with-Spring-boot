@@ -14,4 +14,5 @@ import com.shop.customerservice.domain.Customer;
 public interface CustomerServiceRepository {
 
 	Customer getCustomerByCustomerId(String customerId);
+	void addCustomer(Customer customer);
 }

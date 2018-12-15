@@ -47,4 +47,33 @@ public class ProductServiceImpl implements ProductService {
 		return productRepository.getAllCategories();
 	}
 
+	@Override
+	public Category getCategory(String categoryId) {
+		// TODO Auto-generated method stub
+		return productRepository.getCategory(categoryId);
+	}
+
+	@Override
+	public void addProduct(Product product) {
+		// TODO Auto-generated method stub
+		productRepository.addProduct(product);
+	}
+
+	@Override
+	public void addCategory(Category category) {
+		// TODO Auto-generated method stub
+		productRepository.addCategory(category);
+	}
+
+	@Override
+	public void updateProduct(String productId, Product product) {
+		// TODO Auto-generated method stub
+		productRepository.updateProduct(productId, product);
+	}
+
+	@Override
+	public void updateCategory(String categoryId, Category category) {
+		// TODO Auto-generated method stub
+		productRepository.updateCategory(categoryId, category);
+	}
 }

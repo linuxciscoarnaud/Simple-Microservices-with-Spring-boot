@@ -11,7 +11,7 @@ package com.shop.customerservice.domain;
 public class DataCategory {
 
 	private String categoryId;
-	private String categoryName;
+	private String name;
 
 	public String getCategoryId() {
 		return categoryId;
@@ -21,11 +21,12 @@ public class DataCategory {
 		this.categoryId = categoryId;
 	}
 
-	public String getCategoryName() {
-		return categoryName;
+	public String getName() {
+		return name;
 	}
 
-	public void setCategoryName(String categoryName) {
-		this.categoryName = categoryName;
+	public void setName(String name) {
+		this.name = name;
 	}
+
 }

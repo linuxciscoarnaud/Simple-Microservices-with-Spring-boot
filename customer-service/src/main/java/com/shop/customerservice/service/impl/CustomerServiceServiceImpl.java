@@ -32,4 +32,9 @@ public class CustomerServiceServiceImpl implements CustomerServiceService {
 		return customerServiceRepository.getCustomerByCustomerId(customerId);
 	}
 
+	@Override
+	public void addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		customerServiceRepository.addCustomer(customer);
+	}
 }
