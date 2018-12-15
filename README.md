@@ -32,3 +32,5 @@ Adding a new product of category Computer Hardware & Software with a Post reques
 
 Checking information of a particular product with the Get request method: http://localhost:8200/consumer/product/HM9u5NxzMhZVxaBuRmht/customer/xMzBlBrwqOTRvc8BMKc1
 
+![untitled10](https://user-images.githubusercontent.com/1300982/50042491-7ccaa980-009e-11e9-9ec5-10373e090781.png)
+
