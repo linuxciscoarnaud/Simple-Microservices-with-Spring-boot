@@ -28,3 +28,5 @@ Adding a new product of category Computer Hardware & Software with a Post reques
 
 ![untitled7](https://user-images.githubusercontent.com/1300982/50042145-00829700-009b-11e9-9faf-d167a59ef3ad.png)
 
+![untitled9](https://user-images.githubusercontent.com/1300982/50042251-72a7ab80-009c-11e9-9240-24012b8aed15.png)
+
