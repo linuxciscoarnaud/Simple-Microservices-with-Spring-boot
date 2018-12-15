@@ -20,3 +20,4 @@ Tables Category and Product before starting operations
 
 Adding a new Category with a Post request method: http://localhost:8200/consumer/category/add/customer/xMzBlBrwqOTRvc8BMKc1
 
+![untitled4](https://user-images.githubusercontent.com/1300982/50041932-69681000-0097-11e9-8b59-0a7626d245aa.png)
