@@ -22,4 +22,4 @@ Adding a new Category with a Post request method: http://localhost:8200/consumer
 
 ![untitled4](https://user-images.githubusercontent.com/1300982/50041932-69681000-0097-11e9-8b59-0a7626d245aa.png)
 
-
+![untitled6](https://user-images.githubusercontent.com/1300982/50042012-a54fa500-0098-11e9-986c-4aefed462b59.png)
