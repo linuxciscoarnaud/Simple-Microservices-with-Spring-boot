@@ -25,3 +25,6 @@ Adding a new Category with a Post request method: http://localhost:8200/consumer
 ![untitled6](https://user-images.githubusercontent.com/1300982/50042012-a54fa500-0098-11e9-986c-4aefed462b59.png)
 
 Adding a new product of category Computer Hardware & Software with a Post request method: http://localhost:8200/consumer/product/add/customer/oiqqwqrgAjKGw4uEdXP1
+
+![untitled7](https://user-images.githubusercontent.com/1300982/50042145-00829700-009b-11e9-9faf-d167a59ef3ad.png)
+
