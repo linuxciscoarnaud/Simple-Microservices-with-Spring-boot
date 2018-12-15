@@ -11,3 +11,5 @@ The app is developed using spring boot, Hibernate, JPA and interacts with Mysql 
 # Run the app
 
 Just download the zip files of the two micro services, import them as existing Maven projects into your favorite IDE, create the databases in your Mysql DBMS (check the application.properties files for the database names) and you are good to go.
+
+# Some requests
