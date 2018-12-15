@@ -45,9 +45,14 @@ public class ProductRestController {
 		return productService.getAllCategories();
 	}
 	
-	@PostMapping("/add") 
+	@PostMapping("/product/add") 
 	public void addProduct(@RequestBody Product product) {
 		productService.addProduct(product);
+	}
+	
+	@PostMapping("/category/add")
+	public void addCategory(@RequestBody Category category) {
+		productService.addCategory(category);
 	}
 	
 	@PutMapping("/product/{productId}") 

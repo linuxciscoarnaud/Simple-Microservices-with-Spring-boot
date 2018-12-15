@@ -66,7 +66,12 @@ public class ProductRepositoryImpl implements ProductRepository {
 	@Override
 	public void addCategory(Category category) {
 		// TODO Auto-generated method stub
-		entityManager.persist(category);
+		Query req = entityManager.createQuery("select cat from Category cat where cat.name = :y ");
+		req.setParameter("y", category.getName());
+		List<Category> categories = req.getResultList();
+		if (categories.size() == 0) {
+			entityManager.persist(category);
+		}		
 	}
 
 	@Override

@@ -92,16 +92,29 @@ public class CustomerRestController {
 	
 	// All Post
 	
-	@PostMapping("/add/customer/{customerId}")
+	@PostMapping("/product/add/customer/{customerId}")
 	public void requestAddProduct(@RequestBody DataProduct daProduct, 
 			@PathVariable String customerId) {
 		
 		Customer customer = customerServiceService.getCustomerByCustomerId(customerId);
 		if (customer != null) {		
 			 new RestTemplate().postForEntity(
-					"http://localhost:8000/producer/add",
+					"http://localhost:8000/producer/product/add",
 					daProduct,
 					DataProduct.class);
+		}
+	}
+	
+	@PostMapping("/category/add/customer/{customerId}")
+	public void requestAddCategory(@RequestBody DataCategory daCategory,
+			@PathVariable String customerId) {
+		
+		Customer customer = customerServiceService.getCustomerByCustomerId(customerId);
+		if (customer != null) {	
+			new RestTemplate().postForEntity(
+					"http://localhost:8000/producer/category/add",
+					daCategory,
+					DataCategory.class);
 		}
 	}
 	
