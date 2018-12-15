@@ -18,3 +18,5 @@ Tables Category and Product before starting operations
 
 ![untitled2](https://user-images.githubusercontent.com/1300982/50041836-2e191180-0096-11e9-87e4-38e35b2f5a4d.png)
 
+Adding a new Category with a Post request method: http://localhost:8200/consumer/category/add/customer/xMzBlBrwqOTRvc8BMKc1
+
