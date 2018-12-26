@@ -6,6 +6,8 @@ This source code is an implementation of two basic micro-services: a produser (p
 
 The consumer uses a direct Rest call and RestTemplate to connect to the produser and perform the traditional Create, read, update and delete operations.
 
+The consumer receives all the requests, establishes a connection with the producer and passes them over. Then the producer replies with an appropriate response.
+
 The app is developed using spring boot, Hibernate, JPA and interacts with Mysql DBMS. Each micro-service has its own data model.
 
 # Run the app
