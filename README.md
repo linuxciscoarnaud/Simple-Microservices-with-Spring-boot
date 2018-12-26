@@ -4,7 +4,7 @@ Two basic micro-services developed using spring boot and that use RestTemplate t
 
 This source code is an implementation of two basic micro-services: a produser (product-service) and a consumer (customer-service)
 
-The consumer uses a direct Rest call and RestTemplate to connect to the produser and perform the traditional Create, read, update and delete operations.
+The consumer uses a direct Rest call and RestTemplate object to connect to the produser and perform the traditional Create, read, update and delete operations.
 
 The consumer receives all the requests, establishes a connection with the producer and passes them over. Then the producer replies with an appropriate response.
 
